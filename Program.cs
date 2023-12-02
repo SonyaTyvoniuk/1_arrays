@@ -230,7 +230,7 @@ class Program
             {7, 8, 9}
         };
 
-        Console.WriteLine("3. Початкова матриця:");
+        Console.WriteLine("3 Початкова матриця:");
         PrintMatrix(bmatrix);
 
         int[,] rotatedMatrix = RotateMatrixCounterClockwise(bmatrix);
